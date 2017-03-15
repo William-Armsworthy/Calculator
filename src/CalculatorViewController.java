@@ -33,6 +33,7 @@ public class CalculatorViewController implements Initializable {
     @FXML private TextField display;
     
     public void numberButtonPushed(ActionEvent event){
+        String buttonValue = ((Button)event.getSource()).getText();
         
     }
     
